@@ -4,6 +4,38 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>SQ@portal</title>
+<script>
+    var sites = [
+        'https://www.google.co.uk',
+        'https://www.gnoosic.com',
+        'https://10minutemail.com',
+        'http://www.youtube.com',
+        'https://riverstyx.com',
+        'https://camelcamelcamel.com',
+        'https://www.geoguessr.com',
+        'http://www.thisismywebsitenow.com',
+        'https://www.theonion.com',
+        'https://www.naturalreaders.com',
+        'https://www.howstuffworks.com',
+        'https://www.worldhistory.org',
+        'http://radio.garden',
+        'https://www.window-swap.com',
+        'https://www.futureme.org',
+        'https://www.deepl.com/en/translator',
+        'https://thenounproject.com',
+        'https://www.all8.com/tools/bpm.htm',
+        'https://futureboy.us/fsp/dollar.fsp',
+        'https://www.amazon.com',
+        'https://www.foodnetwork.com',
+        'https://www.zoom.com',
+        'https://www.cnet.com/',
+    ];
+
+    function randomSite() {
+        var i = parseInt(Math.random() * sites.length);
+        location.href = sites[i];
+    }
+</script>
 <style>
 BODY  {
 font-size: 12px;
@@ -23,8 +55,8 @@ margin-right: 10%;
 <center>
 <table class="index"><tr><td valign="top"><table class="index">
 <tr><td> <ul>
-<li><b><a href="Agriculture.html">Agriculture</a></b><br /><small> Irrigation, Livestock, Poultry Science, …</small><br /> </li>
-<li><b><a href="Art.html">The Arts</a></b><br /><small> Art History, Classical Music, Theatre and Drama, …</small><br /> </li>
+<li><b><a href="#" onclick="randomSite();" style="color:orange;">Lucky Find</a></b><br /></li>
+<li><b><a href="headlines.html">The Headlines</a></b><br /></li>
 <li><b><a href="BusinessEconomics.html">Business and Economics</a></b><br /><small> Finance, Marketing, <a href="Transportation.html">Transportation</a>, …</small><br /> </li>
 <li><b><a href="Communication.html">Communications and Media</a></b><br /><small> Broadcasters, Publishers, Telecommunications, …</small><br /> </li>
 <li><b><a href="Computing.html">Computing and Computer Science</a></b><br /><small> Artificial Intelligence, Cryptography, Logic Programming, …</small><br /> </li>
